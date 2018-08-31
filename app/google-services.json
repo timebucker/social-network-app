@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "551229765632",
+    "firebase_url": "https://socialnetworkfirebase-625d3.firebaseio.com",
+    "project_id": "socialnetworkfirebase-625d3",
+    "storage_bucket": "socialnetworkfirebase-625d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551229765632:android:a60a4495c1151ad2",
+        "android_client_info": {
+          "package_name": "com.example.kokolo.socialnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551229765632-k359iol2b35qik44qoka4ns1gj7tevh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kokolo.socialnetwork",
+            "certificate_hash": "5119c26bf8589aea83da448614b3f13c9e2b15c0"
+          }
+        },
+        {
+          "client_id": "551229765632-p57j3u3cmck37rttloise4u6ohhfempq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3ZaIbXJFj35dZj1ecXuFjWMK_u9Hc-ks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551229765632-p57j3u3cmck37rttloise4u6ohhfempq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

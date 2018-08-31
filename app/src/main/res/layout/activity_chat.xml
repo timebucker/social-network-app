@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.chat.ChatActivity">
+    <include
+        android:id="@+id/chat_bar_layout"
+        layout="@layout/app_bar_layout">
+
+    </include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messages_list_users"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/message_linear_layout"
+        android:layout_below="@+id/chat_bar_layout"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/message_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/send_image_file_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_select_image"/>
+
+        <EditText
+            android:id="@+id/input_message"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Write your message here..."
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/message_relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+
+        <ImageButton
+            android:id="@+id/send_message_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_send_message"/>
+
+    </RelativeLayout>
+</RelativeLayout>
